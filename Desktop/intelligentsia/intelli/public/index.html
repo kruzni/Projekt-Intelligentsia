@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Intelligentsia</title>
+  </head>
+  <body>
+  <section class="gore">
+    <div class="upthere">
+      <a href="" class="materijali">MATERIJALI</h3>
+      <a href="" class="kontakt">KONTAKT</h3>
+      <a href="" class="o-nama">O NAMA</h3>
+      <a href="" class="naslov">INTELLIGENTSIA</h1>
+      <a href="" class="donacija">DONACIJA</h3>
+      <a href="" class="prijava">PRIJAVA</h3>
+      <a href="" class="registracija">REGISTRACIJA</h3>
+    </div>
+  </section>
+    <div class="prikaz">
+      <h1 class="platforma">PLATFORMA ZA UČENJE</h1>
+      <h3 class="buduc">POSTANITE DIO PLATFORME KOJA BRINE O VAŠOJ BUDUĆNOSTI</h3>
+    </div>
+    <div class="slike">
+      <a href="https://www.w3schools.com/html/" class="html">
+        <img src="/public/photos/html.png" alt="Photo"></a>
+      <a href="https://www.w3schools.com/html/" class="css"><img :src="require('@/public/photos/css.png')" alt="Photo"></a>
+      <a href="https://www.w3schools.com/html/" class="js"><img :src="require('@/assets/js.png')" alt="Photo"></a>
+      <a href="https://www.w3schools.com/html/" class="py"><img :src="require('@/assets/python.png')" alt="Photo"></a>
+      <a href="https://www.w3schools.com/html/" class="cpp"><img :src="require('@/assets/cpp.png')" alt="Photo"></a>
+    </div>
+    <div class="prvi-natpis">
+      <div class="natpis1">
+        <h1 class="tko">TKO</h1>
+        <h1 class="smo">SMO</h1>
+        <h1 class="mi">MI?</h1>
+      </div>
+      <div class="tekst">
+      <h3 class="opis-natpis1">Intelligentsia je organizacija kojoj je glavni cilj omogućiti besplatno obrazovanje svima koji to požele</h3>
+    </div>
+    </div>
+
+    <div class="drugi-natpis">
+      <div class="natpis2">
+        <h1 class="nas">NAŠ</h1>
+        <h1 class="plan">PLAN?</h1>
+      </div>
+      <div class="tekst2">
+      <h3 class="opis-natpis2">Naš plan je da se polaznik kroz lekcije upoznaje s gradivom te stečeno znanje primjenjuje u rješavanju zadataka</h3>
+    </div>
+    </div>
+
+    <div class="treci-natpis">
+      <div class="natpis3">
+        <h1 class="zasto">ZAŠTO</h1>
+        <h1 class="bas">BAŠ</h1>
+        <h1 class="mi">MI?</h1>
+      </div>
+      <div class="tekst3">
+      <h3 class="opis-natpis3">Iako postoji ogroman broj tutoriala i stranica za učenje ova je na hrvatskom te se time smanjuje jezična barijera</h3>
+    </div>
+    </div>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Spectral SC", serif;
+      }
+      body{
+        background: #101820;
+
+      }
+      a{
+        color: #fff;
+        text-decoration: none;
+      }
+      .upthere{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+        font-family: "Spectral SC", serif;
+      }
+      .naslov{
+        color: #F2AA4C;
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        background: red;
+      }
+      .naslov:hover{
+        border-radius: 5%;
+        background-color: #4c94f2;
+        transition: all 0.5s;
+      }
+      .prikaz{
+        display: block;
+        background-color: #F2AA4C;
+        padding: 3rem;
+        margin-top: 3rem;
+      }
+      .platforma{
+        text-align: center;
+
+      }
+      .buduc{
+        text-align: center;
+        margin-top: 2%;
+      }
+      .slike{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 3%;
+        padding-right: 12%;
+        padding-bottom: 10%;
+        background: #D9D9D9;
+        
+      }
+      img{
+        height: 300px;
+        width: 500px;
+        margin-top: 6rem;
+      }
+      .prvi-natpis{
+        background: #F2AA4C;
+        display: flex;
+        margin-top: 2%;
+        margin-bottom: 2%;
+      }
+      .natpis1{
+        display: block;
+        color: #F2AA4C;
+        background: #101820;
+        margin-left: 7%;
+        padding-top: 2%;
+        padding-left: 3%;
+        padding-right: 3%;
+      }
+      .opis-natpis1{
+        align-items: center;
+        text-align: center;
+        margin-top: 6%;
+        margin-left: 7.5%;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background: #fff;
+        border-radius: 15px;
+      }
+
+      
+      .drugi-natpis{
+        background: #101820;
+        display: flex;
+        margin-top: 2%;
+        margin-bottom: 2%;
+      }
+      .natpis2{
+        text-align: center;
+        margin-left: 7%;
+        color: #ADEFD1;
+        background: #F2AA4C;
+        padding-top: 2%;
+        padding-left: 1%;
+        padding-right: 3%;
+        padding-bottom: 3%;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+      .nas{
+        margin-left: 25%;
+      }
+      .plan{
+        margin-left: 12.5%;
+      }
+      .opis-natpis2{
+        align-items: center;
+        text-align: center;
+        margin-top: 4%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        background: #fff;
+        border-radius: 15px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+      .treci-natpis{
+        background: #F2AA4C;
+        display: flex;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding-left: 2%;
+      }
+      .natpis3{
+        display: block;
+        color: #F2AA4C;
+        background: #101820;
+        margin-left: 3%;
+        padding-top: 2%;
+        padding-left: 3%;
+        padding-right: 3%;
+      }
+      .opis-natpis3{
+        align-items: center;
+        text-align: center;
+        margin-top: 6%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background: #fff;
+        border-radius: 15px;
+      }
+    </style>
+  
+  </body>
+</html>
